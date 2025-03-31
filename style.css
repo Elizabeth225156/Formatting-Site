@@ -1,0 +1,54 @@
+body{
+  background-color: blue;
+}
+
+img{
+  width: 500px;
+}
+
+.title{
+  text-align: center;
+}
+
+.grid{
+  display: grid;
+  grid: auto auto auto auto;
+}
+
+.grid > div {
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+}
+
+.topLeftThree{
+  grid-column: 1 / span 3;
+  background-color: green;
+}
+
+.leftSidePanel{
+  grid-row: 1 / span 3;
+  grid-column: 4;
+  text-align: center;
+  background-color: purple;
+}
+
+.imageLeft{
+  grid-column: 1;
+  background-color: yellow;
+}
+
+.imageMiddle{
+  grid-column: 2;
+  background-color: red;
+}
+
+.imageRight{
+  grid-column: 3;
+  background-color: turquoise;
+}
+
+.bottomText{
+  grid-column: 1 / span 3;
+  background-color: white;
+}
