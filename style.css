@@ -3,7 +3,7 @@ body{
 }
 
 img{
-  width: 500px;
+  width: 50%;
 }
 
 .title{
@@ -11,6 +11,7 @@ img{
 }
 
 .grid{
+  /* using grid and making four sections */
   display: grid;
   grid: auto auto auto auto;
 }
@@ -27,7 +28,7 @@ img{
 }
 
 .leftSidePanel{
-  grid-row: 1 / span 3;
+  grid-row: 1 / span 4;
   grid-column: 4;
   text-align: center;
   background-color: purple;
